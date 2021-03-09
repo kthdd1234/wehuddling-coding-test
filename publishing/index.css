@@ -25,7 +25,7 @@ body {
   height: 100px;
 }
 
-.menu-container {
+.menu-wrap {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -53,7 +53,7 @@ input {
   color: #60a9ed;
 }
 
-.nav-container {
+.nav-wrap {
   border-bottom-width: 1px;
   border-bottom-color: rgb(230, 230, 230);
   height: 50%;
@@ -63,7 +63,6 @@ input {
   display: flex;
   font-weight: bold;
   height: 100%;
-  color: rgb(80, 104, 125);
 }
 
 .nav-item {
@@ -72,21 +71,10 @@ input {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  color: rgb(80, 104, 125);
 }
 
-.content1 {
-  border: 1px solid rgb(230, 230, 230);
-  width: 100%;
-  height: 300px;
-}
-
-.content2 {
-  border: 1px solid rgb(230, 230, 230);
-  width: 100%;
-  height: 300px;
-}
-
-.content3 {
+.content {
   border: 1px solid rgb(230, 230, 230);
   width: 100%;
   height: 300px;
@@ -122,4 +110,9 @@ input {
   border-width: 0;
   border-radius: 30px;
   background-color: #60a9ed;
+}
+
+.highlight {
+  color: #60a9ed;
+  border-bottom: 2px solid #60a9ed;
 }
