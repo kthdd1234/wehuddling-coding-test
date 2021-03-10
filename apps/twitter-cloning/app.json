@@ -4,11 +4,11 @@
     "slug": "twitter-cloning",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/twitter.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/twitter.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#fff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +21,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/twitter.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.twitter.cloningapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
