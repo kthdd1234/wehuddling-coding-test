@@ -61,6 +61,7 @@ input {
 
 .nav-bar {
   display: flex;
+  list-style: none;
   font-weight: bold;
   height: 100%;
 }
