@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import Menu from './Menu';
+import Head from './Head';
 import Nav from './Nav';
 
 const Header = ({ setData }) => {
   return (
     <View style={styles.header}>
-      <Menu setData={setData} />
+      <Head setData={setData} />
       <Nav />
     </View>
   );
