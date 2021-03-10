@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import { StyleSheet, ScrollView, StatusBar, View } from 'react-native';
+import { StyleSheet, StatusBar, View } from 'react-native';
 import Header from './src/header';
-import Content from './src/content';
+import Section from './src/section';
 import Footer from './src/footer';
 
 const App = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState(['']);
 
   return (
     <View style={styles.container}>
       <StatusBar />
       <Header setData={setData} />
-      <Content data={data} />
+      <Section data={data} />
       <Footer />
     </View>
   );
